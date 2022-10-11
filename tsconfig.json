@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./<carpeta de salida>/" /*Aqui afegim la carpeta de sortida!*/,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true
+  },
+  "include": ["src/**/*.ts"]
+}
